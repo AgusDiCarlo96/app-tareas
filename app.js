@@ -7,15 +7,17 @@ const firstParam = process.argv[3];
 const secondParam = process.argv[4];
 
 switch (comando) {
-    case "crear":
-        createTask(firstParam, secondParam);
-        break;
-    case "eliminar":
-        deleteTask(firstParam);
-        break;
-    default:
-        console.log("No se reconoció el comando");
-        break;
+  case "crear":
+    createTask(firstParam, secondParam);
+    break;
+  case "eliminar":
+    deleteTask(firstParam);
+    break;
+  default:
+    console.log("No se reconoció el comando");
+    break;
 }
 
-console.log("Hola chicos")
+console.log("Hola chicos");
+
+console.log("como estan");
