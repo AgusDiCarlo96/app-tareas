@@ -18,4 +18,4 @@ switch (comando) {
     break;
 }
 
-console.log("hola");
+console.log("Hola chicos");
