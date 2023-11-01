@@ -19,3 +19,5 @@ switch (comando) {
 }
 
 console.log("Hola chicos");
+
+console.log("como estan");
